@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fce2f1;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+h2 {
+    background-color: #ff99ce;
+    padding: 0.5em;
+    margin: 1.5em 5rem;
+    display: block;
+    text-align: center;
+    color: #fff;
+    font-weight: 900;
+    font-size: 1.5em;
+}
+
+.parent-box {
+    height: 80vh;
+    width: 100%;
+    background-color: #fff;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.icecream-body {
+    height: 340px;
+    width: 220px;
+    background-color: #ff9acf;
+    border-radius: 7rem 7rem 2rem 2rem;
+    margin: 2.5rem auto;
+    position: absolute;
+    z-index: 1;
+}
+
+.icecream-body-overlay {
+    height: 2rem;
+    width: 4.5rem;
+    background-color: #fff;
+    opacity: 0.4;
+    margin-top: 3rem;
+    margin-left: 8.4rem;
+    border-radius: 50%;
+    position: inherit;
+    display: inline-block;
+    transform: rotate(45deg);
+}
+
+.icecream-body-shadow {
+    height: 200px;
+    width: 220px;
+    border-radius: 7rem 7rem 0 0;
+    background-color: #ff9acf;
+    opacity: 0.6;
+    position: absolute;
+    margin-top: 2.1rem;
+}
+
+.icecream-stick {
+    height: 6rem;
+    width: 3.5rem;
+    background-color: #f3a42e;
+    margin-inline: auto;
+    margin-top: 23rem;
+    border-radius: 0 0 1.5em 1.5em;
+    position: absolute;
+}
+
+.icecream-stick-shadow {
+    height: 1.5rem;
+    width: 3.5rem;
+    background-color: #ce8b26;
+    margin-inline: auto;
+    margin-top: 23rem;
+    position: relative;
+}
+
+.icecream-mouth {
+    height: 1.5rem;
+    width: 4.2rem;
+    border-radius: 0.3em 0.3em 1em 1em;
+    background-color: #ff2893;
+    margin-inline: auto;
+    margin-top: 16rem;
+}
+
+.icecream-left-eye {
+    height: 1rem;
+    width: 1rem;
+    display: block;
+    background-color: #ff2893;
+    margin-left: 2.8rem;
+    margin-top: -4rem;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.icecream-left-eye-pupil {
+    height: 0.3rem;
+    width: 0.3rem;
+    display: block;
+    background-color: #fff;
+    margin-left: 3.1rem;
+    margin-top: -0.8rem;
+    border-radius: 50%;
+    position: relative;
+}
+
+
+.icecream-right-eye {
+    height: 1rem;
+    width: 1rem;
+    display: block;
+    background-color: #ff2893;
+    margin-left: 10rem;
+    margin-top: -4rem;
+    position: relative;
+    border-radius: 50%;  
+}
+
+.icecream-right-eye-pupil {
+    height: 0.3rem;
+    width: 0.3rem;
+    display: block;
+    background-color: #fff;
+    margin-left: 10.3rem;
+    margin-top: -0.3rem;
+    border-radius: 50%;
+    position: relative;
+}
+
